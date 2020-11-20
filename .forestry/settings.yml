@@ -5,20 +5,26 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content
+  path: ''
   label: Pages
   create: all
   match: "**/*"
+  new_doc_ext: html
+  templates:
+  - fap
 - type: directory
   path: content/post
   label: Post
   create: all
   match: "**/*"
 - type: directory
-  path: content/pages
+  path: ''
   label: Pages
   create: all
   match: "**/*"
+  new_doc_ext: html
+  templates:
+  - fap
 upload_dir: public/img
 public_path: "/public/img"
 front_matter_path: ''
