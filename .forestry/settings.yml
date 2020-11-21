@@ -17,8 +17,8 @@ sections:
   new_doc_ext: html
   templates:
   - fap
-upload_dir: public
-public_path: "/public"
+upload_dir: public/img
+public_path: "/public/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
